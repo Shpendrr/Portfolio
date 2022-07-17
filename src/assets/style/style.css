@@ -551,16 +551,20 @@ z.timeline__point--bottom {
 }
 
 .menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition-duration: 0.25s;
-  font-family: "Poppins";
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: hsla(0,0%,100%,.027);
+    padding: 10px;
+    font-family: Poppins;
+    border-block-start: 8px solid #d1f4fd;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer!important;
+    width: 150px;
+    margin: 0 auto;
 }
 .menu__item:hover {
   background-color: #cfd8dc;
