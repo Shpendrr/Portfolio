@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 # webiste link
 ### https://shpendrrustemi.vercel.app/
 ## Project setup
