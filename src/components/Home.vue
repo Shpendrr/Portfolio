@@ -12,7 +12,7 @@
         <div class="audio-btn">
           <img src="../assets/images/play-btn.png" id="icon" />
           <audio id="mySong" loop>
-            <source src="/assets/videos/Music.mp3" type="audio/mp3" />
+            <source src="../assets/music/Music.mp3" type="audio/mp3" />
           </audio>
           <a href="#">Play Music</a>
         </div>
@@ -73,6 +73,30 @@ export default {
     About,
     Projects,
     Skills,
+  },
+  data() {
+    return {};
+  },
+  mounted() {
+    var mySong = document.getElementById("mySong");
+    var icon = document.getElementById("icon");
+    var scroll = new SmoothScroll('a[href*="#"]');
+
+    icon.onclick = function () {
+      if (mySong.paused) {
+        mySong.play();
+        icon.src = "../assets/images/pause-btn.png";
+      } else {
+        mySong.pause();
+        icon.src = "../assets/images/play-btn.png";
+      }
+    };
+    let typed = new Typed(".auto-type", {
+      strings: ["Shpend Rrustemi", "a Front End Developer"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      looped: true,
+    });
   },
 };
 </script>
