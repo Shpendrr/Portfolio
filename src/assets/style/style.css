@@ -531,7 +531,9 @@ z.timeline__point--bottom {
 }
 
 .menu__box {
-  display: block;
+     display: flex;
+    flex-direction: column;
+    gap: 50px;
   position: fixed;
   visibility: hidden;
   top: 0;
