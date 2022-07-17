@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but  htmlWebpackPlugin.options.title doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: ["Shpend Rrustemi", "a Front End Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        looped: true,
+        });
+      var mySong = document.getElementById("mySong");
+      var icon = document.getElementById("icon");
+
+      icon.onclick = function () {
+        if (mySong.paused) {
+          mySong.play();
+          icon.src = "/assets/images/pause-btn.png";
+        } 
+        else {
+          mySong.pause();
+          icon.src = "/assets/images/play-btn.png";
+        }
+      };
+
+      var scroll = new SmoothScroll('a[href*="#"]');
+
+      </script>
+  </body>
+</html>
