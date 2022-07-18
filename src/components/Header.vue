@@ -19,6 +19,7 @@
         <a href="#about-items">About</a>
         <a href="#experience-content-items">Projects</a>
         <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </div>
@@ -33,6 +34,8 @@
 			<li><a class="menu__item" href="#about-items">About</a></li>
 			<li><a class="menu__item" href="#experience-content-items">Projects</a></li>
 			<li><a class="menu__item" href="#skills">Skills</a></li>
+			<li><a class="menu__item" href="#contact">Contact</a></li>
+
     </ul>
   </div>
 </template>
