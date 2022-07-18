@@ -37,6 +37,11 @@ p {
   color: #fff;
 }
 
+.header-links a:hover {
+  text-decoration: overline #d1f4fd 5px;
+  border-radius: 20px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -445,6 +450,7 @@ z.timeline__point--bottom {
 }
 .skills-title {
   text-align: center;
+  padding-top: 5rem;
 }
 .skills-title h1 {
   color: #fff;
@@ -554,20 +560,20 @@ z.timeline__point--bottom {
 }
 
 .menu__item {
-    display: block;
-    font-size: 15px;
-    color: #fff;
-    text-decoration: none;
-    background: hsla(0,0%,100%,.027);
-    padding: 10px;
-    font-family: Poppins;
-    border-block-start: 8px solid #d1f4fd;
-    font-weight: 700;
-    border-radius: 5px;
-    text-transform: uppercase;
-    cursor: pointer!important;
-    width: 150px;
-    margin: 0 auto;
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: hsla(0, 0%, 100%, 0.027);
+  padding: 10px;
+  font-family: Poppins;
+  border-block-start: 8px solid #d1f4fd;
+  font-weight: 700;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer !important;
+  width: 150px;
+  margin: 0 auto;
 }
 .menu__item:hover {
   background-color: #cfd8dc;
@@ -603,6 +609,7 @@ z.timeline__point--bottom {
   .header-links {
     display: none;
   }
+
   .header-item {
     background: none;
   }

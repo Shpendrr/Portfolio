@@ -57,6 +57,7 @@
   <About />
   <Projects />
   <Skills />
+  <Contact/>
 </template>
 <style src="../assets/style/style.css" lang="css"></style>
 
@@ -65,6 +66,7 @@ import Header from "../components/Header.vue";
 import About from "../components/About.vue";
 import Projects from "../components/Projects.vue";
 import Skills from "../components/Skills.vue";
+import Contact from "../components/Contact.vue";
 
 export default {
   name: "header",
@@ -73,6 +75,7 @@ export default {
     About,
     Projects,
     Skills,
+    Contact,
   },
   data() {
     return {};
