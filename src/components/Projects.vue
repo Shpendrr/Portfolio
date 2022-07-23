@@ -15,7 +15,7 @@
         </div>
         <div class="current__date">
           <div class="date">
-            <p>02/01/2022 – Current</p>
+            <p>01/01/2022 – Current</p>
           </div>
         </div>
         <div class="experience_description">
